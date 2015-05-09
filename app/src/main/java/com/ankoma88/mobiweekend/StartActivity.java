@@ -1,0 +1,19 @@
+package com.ankoma88.mobiweekend;
+
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.Window;
+
+public class StartActivity extends SingleFragmentActivity {
+    @Override
+    protected Fragment createFragment() {
+        return new StartFragment();
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        super.onCreate(savedInstanceState);
+    }
+}
