@@ -30,7 +30,7 @@ public class FlickrFetchr {
     private static final String METHOD_SEARCH = "flickr.photos.search";
     private static final String METHOD_SEARCH_MY_PHOTOS = "flickr.people.getPublicPhotos";
     private static final String ACCURACY = "1";
-    private static final String PER_PAGE = "1000";
+    private static final String PER_PAGE = "300";
     private static final String HAS_GEO = "1";
     private static final String PARAM_EXTRAS = "extras";
     private static final String EXTRA_SMALL_URL = "url_s";
